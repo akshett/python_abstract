@@ -1,8 +1,8 @@
-Python Abstract
+Python Abstract Class
 
 This code is written to demonstrate how to write an abstract class in python.
 
-Abstract class (as the word abstract might suggest) is supposed to be class that cannot be instantiated to an object. Now, what may be the use of such a class you might ask. Many a times we want to group a bunch of insances as inheriting from the same hierarchy, however, we have no interest in creating an instance of the said parent.
+Abstract class (as the word abstract might suggest) is supposed to be class that cannot be instantiated to an object. Now, what may be the use of such a class you might ask. Many a times we want to group a bunch of insances to inherit from the same hierarchy, however, we have no interest in creating an instance of the said parent.
 
 For example, let's say have a class for different languages: English, Hindi, Sanskrit, Spanish etc. Now we want to find some way to group these classes together since we know they are all languages. So we create a base abstract class 'Language' and we derive the above classes from this base class. This helps us in two ways:
 a. Provide a common interface for various languages to derive from. For example, we can have variables 'script', 'origin', 'usage_population' and functions like 'get_region', 'translate_into', 'translate_from' declared in the base abstract class. These are declared as abstract methods. More explanation on abstract methods below.
